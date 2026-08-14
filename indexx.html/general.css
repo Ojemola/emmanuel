@@ -14,31 +14,20 @@
 
       }
 
-       @media (max-width: 950px) {
+      
+
+       @media (max-width: 1190px) {
         .grid-example {
           grid-template-columns: 1fr 1fr;
         }
-       }
-
-       @media (max-width: 901px) and (min-width: 1264px) {
-        .grid-example {
-          grid-template-columns: 1fr 1fr 1fr ;
-        }
-       }
-
-       @media (min-width: 1359px) {
-        .grid-example {
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-       }
-
-       @media (max-width: 650px) {
+        
+         @media (max-width: 838px) {
         .grid-example {
           grid-template-columns: 1fr;
         }
        }
 
-
+       }
       .apple {
         width: 100%;
         cursor: pointer;
@@ -176,6 +165,7 @@
         font-family: Roboto, Arial;
         font-size: 15px;
         cursor: pointer;
+        line-height: 20px;
       }
 
       .text-8 {
@@ -341,6 +331,7 @@
         font-family: Roboto, Arial;
         font-size: 15px;
         cursor: pointer;
+        line-height: 20px;
       }
 
       .text-17 {
@@ -502,6 +493,7 @@
         font-family: Roboto, Arial;
         font-size: 15px;
         cursor: pointer;
+        line-height: 20px;
       }
 
       .text-26 {
